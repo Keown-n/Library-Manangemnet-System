@@ -12,43 +12,43 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            string filePath = "C:\\Users\\keown\\source\\repos\\ConsoleApp12\\Library.txt"; // Path to your text file
+             // Path to your text file
 
-            if (File.Exists(filePath))
-            {
-                Console.WriteLine("exists");
-            }
-            else
-            {
-                Console.WriteLine("no");
+            FileHandler inventory = new FileHandler("C:\\Users\\keown\\source\\repos\\ConsoleApp12\\Library.txt");
+            FileHandler booksBorrowed = new FileHandler("C:\\Users\\keown\\source\repos\\ConsoleApp12\\BooksBorrowed.txt");
+            Book b = new Book("John", "Stone", "12345678890", 2073);
+
+            if (inventory.exist()) {
+
+                Console.WriteLine("exist");
             }
 
            try
             {
                 // Read the entire file into a string variable
                 // Read all lines of the file into a list
-                List<string> lines = new List<string>(File.ReadAllLines(filePath));
-                List<List<string>> splitLines = new List<List<string>>();
 
-                for (int i = 0; i < lines.Count; i++)
-                {
-                    // Split each line at "/" and convert to List<string>
-                    List<string> parts = new List<string>(lines[i].Split('/'));
 
-                    // Add the list of parts to the splitLines list
-                    splitLines.Add(parts);
-                }
+                /* 
 
-                // Output the results
-                for (int i = 0; i < splitLines.Count; i++)
-                {
-                    Console.WriteLine($"Line {i + 1}:");
-                    foreach (var part in splitLines[i])
-                    {
-                        Console.WriteLine(part);
-                    }
-                    Console.WriteLine(); // New line for better readability
-                }
+                 inventory.getData();
+                 Console.WriteLine("//////////////////////////////////////////////////////////////////////");
+
+
+                 inventory.removeData(b);
+
+                 Console.WriteLine("//////////////////////////////////////////////////////////////////////");
+                 inventory.getData();*/
+
+                inventory.isAvaliable(b);
+                
+                inventory.addData(b);
+
+                inventory.isAvaliable(b);
+
+
+
+
             }
             catch (Exception ex)
             {
