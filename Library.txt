@@ -1,7 +1,8 @@
-9780547928227/The Hobbit/J.R.R. Tolkien/1937
-9780618640157/The Lord of the Rings: The Fellowship of the Ring/J.R.R. Tolkien/1954
-9780618640140/The Lord of the Rings: The Two Towers/J.R.R. Tolkien/1954
-9780618640133/The Lord of the Rings: The Return of the King/J.R.R. Tolkien/1955
-9780439708180/Harry Potter and the Sorcerer's Stone/J.K. Rowling/1997
-9780439064878/Harry Potter and the Chamber of Secrets/J.K. Rowling/1998
-12345678890/John/Stone/2073
+9780547928227-The Hobbit-J.R.R. Tolkien-1937-4-12/09/2024
+9780618640157-The Lord of the Rings: The Fellowship of the Ring-J.R.R. Tolkien-1954-5-21/09/2024
+9780618640140-The Lord of the Rings: The Two Towers-J.R.R. Tolkien-1954-6-09/09/2024
+9780618640133-The Lord of the Rings: The Return of the King-J.R.R. Tolkien-1955-7-30/09/2024
+9780439708180-Harry Potter and the Sorcerer's Stone-J.K. Rowling-1997-8-17/09/2024
+9780439064878-Harry Potter and the Chamber of Secrets-J.K. Rowling-1998-9-25/09/2024
+12345678890-John-Stone-2073-8-05/09/2024
+10101001010101001-Jaryd-Travis-2004-0-2000/01/01 00:00:00

@@ -7,8 +7,8 @@
         public abstract int numberOfBooksBorrowed();
         public abstract string mostPopular();
         public abstract void overDueBook();
-        public abstract void addBook(Book book);
-        public abstract void removeBook(Book book);    
+        public abstract void addBook(Book book, FileHandler file);
+        public abstract void removeBook(Book book, FileHandler file);    
     
     }
 
@@ -34,19 +34,16 @@
             
         }
 
-        public override void addBook(Book book)
+        public override void addBook(Book book, FileHandler file)
         {
-            //adds book to system file
-
-            
-
-            throw new System.NotImplementedException();
+            file.addData(book);
+            System.Console.WriteLine("Book has been added to the file");
         }
 
-        public override void removeBook(Book book)
+        public override void removeBook(Book book, FileHandler file)
         {
-            //removes book from system file
-            throw new System.NotImplementedException();
+            file.removeData(book);
+            System.Console.WriteLine("Book has been removed from the file");
         }
 
         public override void borrowBook(Book book)
@@ -130,12 +127,12 @@
             throw new System.NotImplementedException();
         }
 
-        public override void addBook(Book book)
+        public override void addBook(Book book, FileHandler file)
         {
             throw new System.NotImplementedException();
         }
 
-        public override void removeBook(Book book)
+        public override void removeBook(Book book, FileHandler file)
         {
             throw new System.NotImplementedException();
         }
@@ -188,12 +185,12 @@
             throw new System.NotImplementedException();
         }
 
-        public override void addBook(Book book)
+        public override void addBook(Book book, FileHandler file)
         {
             throw new System.NotImplementedException();
         }
 
-        public override void removeBook(Book book)
+        public override void removeBook(Book book, FileHandler file)
         {
             throw new System.NotImplementedException();
         }
